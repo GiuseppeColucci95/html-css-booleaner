@@ -49,3 +49,11 @@ h1 {
 #images_section {
   margin-top: 20px;
 }
+
+ul {
+  padding: 15px;
+}
+
+.yellow {
+  background-color: yellow;
+}

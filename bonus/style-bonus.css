@@ -17,8 +17,11 @@ body {
 }
 
 #header_div {
+  width: 80%;
   height: 180px;
+  margin: auto;
   position: relative;
+
 }
 
 #logo {
@@ -29,7 +32,8 @@ body {
 }
 
 main {
-  margin: 10px;
+  width: 80%;
+  margin: auto;
 }
 
 h1 {

@@ -1,0 +1,18 @@
+:root {
+  --header-color: #4ea0ff;
+}
+
+body {
+  margin: 0;
+}
+
+#page_header {
+  background-image: url(../img/pattern.png);
+  height: 180px;
+  background-color: var(--header-color);
+}
+
+#logo {
+  width: 350px;
+  margin: 10px;
+}

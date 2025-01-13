@@ -2,6 +2,8 @@
   --header-color: #4ea0ff;
   --h2-color: #8a8a8a;
   --span-color: #41b6e8;
+  --thead-color: #20a9e5;
+  --trow-color: #b1e5f2;
 }
 
 body {
@@ -56,4 +58,23 @@ ul {
 
 .yellow {
   background-color: yellow;
+}
+
+.first_second {
+  width: 25%;
+  text-align: left;
+}
+
+.third {
+  text-align: left;
+}
+
+.blue {
+  background-color: var(--thead-color);
+  font-weight: 20px;
+  color: white;
+}
+
+.light_blue {
+  background-color: var(--trow-color);
 }

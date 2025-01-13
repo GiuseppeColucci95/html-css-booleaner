@@ -25,7 +25,7 @@ main {
 h1 {
   margin-top: 20px;
   margin-bottom: 0px;
-  font-size: 70px;
+  font-size: 65px;
 }
 
 .gray {
@@ -36,4 +36,16 @@ h1 {
 
 #blue_span {
   color: var(--span-color);
+}
+
+#tim_one {
+  width: 52%;
+}
+
+#tim_two {
+  width: 44%;
+}
+
+#images_section {
+  margin-top: 20px;
 }

@@ -14,18 +14,13 @@ body {
   background-image: url(../img/pattern.png);
   height: 180px;
   background-color: var(--header-color);
-}
-
-#header_div {
-  height: 180px;
-  position: relative;
+  background-size: 40%;
 }
 
 #logo {
   width: 350px;
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
+  padding-top: 80px;
+  padding-left: 10px;
 }
 
 main {
@@ -61,7 +56,7 @@ h1 {
 }
 
 ul {
-  padding: 15px;
+  padding-left: 15px;
 }
 
 .yellow {
@@ -90,7 +85,7 @@ ul {
 #monitor_image {
   background-image: url(../img/monitor.jpg);
   height: 208px;
-  background-repeat: no-repeat;
+  width: 312px;
   color: white;
   padding-left: 10px;
   padding-top: 1px;
@@ -100,7 +95,7 @@ ul {
 #graph_image {
   background-image: url(../img/graph.jpg);
   height: 208px;
-  background-repeat: no-repeat;
+  width: 312px;
   color: white;
   padding-left: 10px;
   padding-top: 1px;
@@ -108,4 +103,8 @@ ul {
 
 .captions {
   font-size: 14px;
+}
+
+table {
+  border-collapse: collapse;
 }

@@ -14,21 +14,13 @@ body {
   background-image: url(../img/pattern.png);
   height: 180px;
   background-color: var(--header-color);
-}
-
-#header_div {
-  width: 80%;
-  height: 180px;
-  margin: auto;
-  position: relative;
-
+  background-size: 40%;
 }
 
 #logo {
   width: 350px;
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
+  padding-top: 80px;
+  padding-left: 10%;
 }
 
 main {
